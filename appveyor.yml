@@ -67,5 +67,5 @@ test_script:
   - 7z a c:\projects\OpenBLAS\openblas.zip c:\projects\OpenBLAS
 
 artifacts:
-  - path: c:\projects\OpenBLAS\openblas.zip
+  - path: openblas.zip
     name: openblas
