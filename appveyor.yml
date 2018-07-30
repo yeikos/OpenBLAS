@@ -64,8 +64,8 @@ test_script:
   - echo Running Test
   - cd utest
   - openblas_utest
-  - 7z a openblas.zip c:\projects\OpenBLAS
+  - 7z a c:\projects\openblas.zip c:\projects\OpenBLAS
 
 artifacts:
-  - path: openblas.zip
+  - path: c:\projects\openblas.zip
     name: openblas
